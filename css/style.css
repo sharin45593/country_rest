@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+   
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   grid-gap: 30px;
+}
+
+.country{
+    border :3px solid tomato;
+    /* background-color: aquamarine; */
+    border-radius: 40px;
+    padding: 40px;
+   
+}
+
+
+.country img{
+    width: 300px;
+}
+.country h2{
+    color: blueviolet;
+  
+}
